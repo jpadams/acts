@@ -7,6 +7,6 @@ class acts {
     license      => 'Apache v2',
     version      => '1.0',
     project_url  => 'http://www.puppetlabs.com',
-    timeout      => 25,
+    timeout      => 10,
   }
 }
