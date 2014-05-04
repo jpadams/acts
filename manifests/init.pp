@@ -1,5 +1,5 @@
 class acts {
- #set your param defaults here or use runyer's defaults
+  #set your param defaults here or use runyer's defaults
   #include runyer
   class { 'runyer':
     author_name  => 'Jeremy Adams',
