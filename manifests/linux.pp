@@ -1,11 +1,11 @@
 class acts::linux {
   include acts
 
-  runyer::posix_command { 'ls':
+  runyer::nix_command { 'ls':
     command => 'ls -al',
   }
 
-  runyer::posix_command { 'du':
+  runyer::nix_command { 'du':
     command => 'du -k',
   }
 }
