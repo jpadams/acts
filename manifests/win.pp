@@ -1,3 +1,4 @@
+# win.pp for the windows nodes
 class acts::win {
   include acts
 
@@ -14,5 +15,4 @@ class acts::win {
     ensure  => 'absent',
     command => 'mkdir c:\you_later',
   }
-
 }
